@@ -125,6 +125,7 @@ function openCards(card) {
 		}
 		else
 		{
+			// Set Timeout Function to delay the function call of notMatched() by 500ms
 			setTimeout(function(){notMatched(a,card);},500);
 		}
 	}
